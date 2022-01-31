@@ -4,11 +4,14 @@ import { GithubIcon, ArrowIcon } from '../components/elements/Icons';
 const LandingPage = () => {
   return (
     <Main>
-      <h1 className='font-bold text-7xl text-gray-800 mb-12 max-w-2xl leading-[1.2em] text-center'>
-        Let's get started with <span className='text-transparent bg-clip-text bg-gradient-to-br from-[#e48508] to-[#e48508]'>Histories</span>
+      <h1 className="font-bold text-7xl text-gray-800 mb-12 max-w-2xl leading-[1.2em] text-center">
+        {"Let's get started with "}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF9000]  to-[#D12FC4]">
+          Histories
+        </span>
       </h1>
       {/* BUTTONS */}
-      <div className="flex gap-4">
+      <div className="flex gap-4 flex-col sm:flex-row">
         {/* DOCUMENTATION */}
         <a
           className="button"
