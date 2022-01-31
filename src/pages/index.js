@@ -1,7 +1,40 @@
-export default function Home() {
+import Main from '../components/layouts/Main';
+import { GithubIcon, ArrowIcon } from '../components/elements/Icons';
+
+const LandingPage = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <Main>
+      <h1 className='font-bold text-7xl text-gray-800 mb-12 max-w-2xl leading-[1.2em] text-center'>
+        Let's get started with <span className='text-transparent bg-clip-text bg-gradient-to-br from-[#e48508] to-[#e48508]'>Histories</span>
+      </h1>
+      {/* BUTTONS */}
+      <div className="flex gap-4">
+        {/* DOCUMENTATION */}
+        <a
+          className="button"
+          href="https://github.com/histories-cc/SOC_dokumentace"
+        >
+          Documentation
+        </a>
+
+        {/* SOURCE CODE */}
+        <a className="button" href="https://www.github.com/histories-cc">
+          <span className="w-6 h-6">
+            <GithubIcon />
+          </span>
+          Source code
+        </a>
+
+        {/* EXPLORE */}
+        <a className="button-primary" href="https://www.histories.cc">
+          Explore
+          <span className="w-4 h-4">
+            <ArrowIcon />
+          </span>
+        </a>
+      </div>
+    </Main>
+  );
+};
+
+export default LandingPage;

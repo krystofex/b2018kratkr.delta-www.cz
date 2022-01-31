@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.button {
+    @apply py-4 px-6 rounded-lg font-semibold text-xl flex items-center gap-3 hover:scale-[98%] ease-in-out duration-200 bg-gray-200 hover:bg-gray-300 text-gray-600
+}
+
+.button-primary {
+    @apply py-4 px-6 rounded-lg font-semibold text-xl flex items-center gap-3 hover:scale-[98%] ease-in-out duration-200 bg-[#FF9000] hover:bg-[#e48508] text-white
+}
