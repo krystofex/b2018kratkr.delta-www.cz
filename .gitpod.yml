@@ -15,15 +15,15 @@ ports:
   # Nextjs
   - port: 3000
     onOpen: ignore
-    visibility: public 
+    visibility: public
 
 vscode:
   extensions:
-    - dbaeumer.vscode-eslint 
+    - dbaeumer.vscode-eslint
     - esbenp.prettier-vscode
     - eamodio.gitlens
     - pflannery.vscode-versionlens
-    - wix.vscode-import-cost 
+    - wix.vscode-import-cost
     - bradlc.vscode-tailwindcss
     - bierner.markdown-preview-github-styles
     - pkief.material-icon-theme

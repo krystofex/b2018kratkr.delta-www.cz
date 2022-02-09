@@ -1,13 +1,13 @@
 {
-  "name": "b2018kratkr.delta-www.cz",
+  "name": "histories_landing_page",
+  "description": "Landing page for Histories project hosted on https://b2018kratkr.delta-www.cz/",
   "private": false,
   "scripts": {
     "dev": "next dev",
-    "generate-web-source":"git clone https://www.github.com/histories-cc/histories ./public/web-source && zip -r ./public/web-source.zip ./public/web-source/ && tar -czvf ./public/web-source.tar.gz ./public/web-source/ && rm -rf ./public/web-source",
-    "prebuild": "yarn generate-web-source",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@headlessui/react": "^1.4.3",

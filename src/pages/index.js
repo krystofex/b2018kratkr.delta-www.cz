@@ -59,15 +59,14 @@ const LandingPage = () => {
                   Downloads
                 </Dialog.Title>
                 <Dialog.Description className="mt-2 flex flex-col gap-4">
-                
                   <a className="button-small" href="/web-source.tar.gz">
                     Web source .tar.gz
-                  </a> 
+                  </a>
 
                   <a className="button-small" href="/web-source.zip">
                     Web source .zip
                   </a>
-                 </Dialog.Description>
+                </Dialog.Description>
 
                 <div className="mt-4">
                   <button
