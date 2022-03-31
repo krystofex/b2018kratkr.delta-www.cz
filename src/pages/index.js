@@ -10,16 +10,16 @@ const LandingPage = () => {
 
   return (
     <Main>
-      <h1 className="font-bold text-7xl text-gray-800 mb-2 max-w-2xl leading-[1.2em] text-center">
+      <h1 className="font-bold text-5xl sm:text-6xl md:text-7xl text-gray-800 mb-2 max-w-2xl leading-[1.2em] text-center transition-all duration-300 ease-in-out">
         <span className="text-transparent bg-clip-text bg-brand">
           Histories.cc
         </span>
       </h1>
-      <h3 className="font-bold text-4xl text-gray-800 mb-12 max-w-2xl leading-[1.2em] text-center">
+      <h3 className="font-bold text-3xl md:text-4xl text-gray-800 mb-12 max-w-2xl leading-[1.2em] text-center transition-all duration-300 ease-in-out">
         Platforma pro sdílení historických fotografií
       </h3>
       {/* BUTTONS */}
-      <div className="flex gap-4 flex-col flex-wrap px-4 sm:flex-row">
+      <div className="flex gap-4 flex-col justify-center flex-wrap px-4 sm:flex-row">
         {/* DOCUMENTATION */}
         <a
           className="button"
