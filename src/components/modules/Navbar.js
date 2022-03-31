@@ -9,17 +9,13 @@ const Navbar = () => {
         </a>
 
         <div className="flex gap-2">
-          <a
-            className="navbar-button"
-            href="https://docs-histories.netlify.app/docs/intro/"
-          >
-            Docs
-          </a>
-          <a
+          <a className="navbar-button" href="https://www.histories.cc/login">
+            Přihlásit se
+          </a>          <a
             className="navbar-button-primary"
-            href="https://www.histories.cc/login"
+            href="https://www.histories.cc/register"
           >
-            Log in
+            Zaregistrovat se
           </a>
         </div>
       </div>

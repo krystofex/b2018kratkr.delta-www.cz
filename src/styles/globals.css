@@ -11,7 +11,7 @@
 }
 
 .button-primary {
-  @apply py-4 px-6 rounded-lg font-semibold text-xl flex items-center gap-3 hover:scale-[98%] ease-in-out duration-200 bg-[#FF9000] hover:bg-[#e48508] text-white justify-center;
+  @apply py-4 px-6 rounded-lg font-semibold text-xl flex items-center gap-3 hover:scale-[98%] ease-in-out duration-200 bg-brand hover:bg-brand/80 text-white justify-center;
 }
 
 .navbar-button {
@@ -19,5 +19,5 @@
 }
 
 .navbar-button-primary {
-  @apply py-2 px-4 rounded-lg font-semibold text-base items-center gap-3 ease-in-out duration-200 bg-[#FF9000] hover:bg-[#e48508] text-white hidden sm:block;
+  @apply py-2 px-4 rounded-lg font-semibold text-base items-center gap-3 ease-in-out duration-200 bg-brand hover:bg-brand/80 text-white hidden sm:block;
 }
